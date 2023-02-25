@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@font-face {
+    font-family: 'baron neue';
+    src: url('/ThorRagnarok-xWEm.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+/*=============NAVBAR===========*/
+ a.navbar-brand{
+    font-size: 18px;
+    font-weight: 900;
+    color: #fff;
+    font-family: 'baron neue', sans-serif;
+}
+.nav-link{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700
+}
+.nav-link:hover{
+    color: #ca865e;
+}
+/*==========HERO========*/
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.3),rgba(0,0,0,0.6)), url(./images/hero-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+i{
+    font-size: 24px;
+    color: white;
+}
+i:hover{
+    color: #ca865e;
+}
+#hero{
+    width: 100%;
+    height: 100vh;
+}
+#hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#hero h1:nth-child(1){
+    color: white;
+    text-shadow: -70px -31px 3px rgba(0,0,0,0.4),
+    0px 8px 13px rgba(0,0,0,0.1),
+    0px 18px 23px rgba(0,0,0,0.1);
+    font-family: 'baron neue', sans-serif;
+
+
+
+}
+#hero h1:nth-child(2){
+    color: #e1d46c;
+}
+
+#hero .btn-1{
+    margin-top: 20px;
+    margin-inline: 5px;
+    padding: 10px 32px;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 10px;
+    background-color: #2a2538;
+    border:1px solid white;
+}
+
+#hero .btn-2{
+    margin-top: 20px;
+    margin-inline: 5px;
+    padding: 10px 32px;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 10px;
+    background-color: transparent;
+    border:1px solid white;
+}
+
+#hero .btn-1:hover{
+    background-color: transparent;
+    transition: .5s all ease-in-out;
+}
+#hero .btn-2:hover{
+    background-color: #2a2538;
+    transition: .5s all ease-in-out;
+}
+#hero button a{
+    color: white;
+    text-decoration: none;
+}
+
+.socials img{
+    width: 42px;
+    background:  white;
+    color: white;
+    border-radius: 20px;
+    margin-inline: 10px;
+    border: 1px solid white;
+    outline-offset: 2px solid white;
+    cursor: pointer;
+}
+.socials img:hover{
+    background: #229ED9;
+    transition: 1s;
+    scale: 1.2;
+}
+/*==========ABOUT========*/
+#about{
+    width: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+    height: 55vh;
+    background: rgba( 42, 37, 56, 0.35 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 12.5px );
+-webkit-backdrop-filter: blur( 7.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+#about .row{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#about img{
+    width: 400px;
+}
+#about h6{
+    border: 2px solid none;
+    background-color: #7A779B;
+    display: inline;
+    color: white;
+    padding: 10px;
+}
+#about h1{
+    color: white;
+    font-family: 'baron neue', sans-serif;
+    font-size: 40px;
+}
+#about p{
+    font-size: 18px;
+    font-weight: 600;
+    color: #B9B6CD;
+}
+/*============TAX============*/
+#tax{
+    display: flex;
+    justify-content: space-between;
+}
+#tax h1{
+    color: #c8825a;
+    text-shadow: 2px 5px #864121;
+}
+
+#tokenomics h1{
+    color: #838CB3;
+    font-family: 'baron neue', sans-serif;
+    font-size: 40px;
+}
+
+/*============ROADMAP============*/
+
+#roadmap{
+    width: 100%;
+    height: 100vh;
+}
+#roadmap h1{
+    color: #838CB3;
+    font-family: 'baron neue', sans-serif;
+    font-size: 40px;
+}
+
+#roadmap h5{
+    color: #B9B6CD;
+}
+
+#roadmap p{
+    color: white;
+    font-family: 'josefin sans', sans-serif;
+}
+
+#roadmap p:hover{
+    color: #e1d46c;
+    cursor: default;
+}
+
+.card{
+    background: rgba( 255, 255, 255, 0.1 );
+box-shadow: 0 8px 32px 0 rgba(216, 226, 187, 0.37);
+backdrop-filter: blur( 12.5px );
+-webkit-backdrop-filter: blur( 12px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+    margin: auto;
+}
+
+
+
+.socials a{
+    text-decoration: none;
+    color: white;
+}
+
+
+@media screen and (max-width: 992px){
+    #about{
+        width: 100%;
+        height: 60vh;
+    }   
+}
+@media screen and (max-width: 768px) {
+    #about{
+        width: 100%;
+        height: 110vh;
+    }   
+    #about img{
+        width: 350px;
+        margin-bottom: 30px;
+    }
+    .card{
+        margin-left: -20px;
+    }
+    .footer{
+        position: absolute;
+        bottom: 0;
+    }
+}
